@@ -1,0 +1,34 @@
+[
+  {
+    "id": 247,
+    "title": "Astrum architecto quasi.",
+    "isbn": "1560994284349",
+    "publishedYear": 1984,
+    "pageCount": 919,
+    "language": "aveho",
+    "description": "Sit vehemens ceno vulnero nostrum accendo ambulo varius cuius thesaurus. Benigne earum tepidus tamdiu. Angelus vorax arbustum.",
+    "authorId": 25,
+    "publisherId": 25,
+    "genres": [
+      "self-help"
+    ],
+    "createdAt": "2026-03-21T18:05:50.200Z",
+    "updatedAt": "2025-12-01T05:34:42.241Z"
+  },
+  {
+    "id": 247,
+    "title": "Aggredior volo corporis tremo trepide adficio commodo amaritudo dens.",
+    "isbn": "8367474345854",
+    "publishedYear": 1923,
+    "pageCount": 878,
+    "language": "temporibus",
+    "description": "Socius umbra tempus conicio censura cuius ventus. Contigo caritas sumo occaecati spargo rem coma apud synagoga eius. Saepe valetudo ventus delectatio aegre adstringo pel volva.",
+    "authorId": 25,
+    "publisherId": 25,
+    "genres": [
+      "biography"
+    ],
+    "createdAt": "2025-05-28T20:26:23.280Z",
+    "updatedAt": "2025-04-28T23:32:29.816Z"
+  }
+]
