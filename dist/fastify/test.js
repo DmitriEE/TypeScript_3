@@ -1,22 +1,21 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const fastify_1 = require("fastify");
-const fastify = (0, fastify_1.default)();
-const start = async () => {
+exports.getBookById = getBookById;
+const fs = require('node:fs/promises');
+async function getBookById(id) {
     try {
-        await fastify.listen({ port: 3000 });
-        console.log('Server is running at http://localhost:3000');
+        const data = await fs.readFile("../data/books.json", "utf-8");
+        const jsonData = JSON.parse(data);
+        for (const book of jsonData) {
+            if (book.id === id) {
+                console.log(book);
+                return;
+            }
+        }
+        console.log("Асинхронное чтение файлов завершено");
     }
-    catch (err) {
-        console.error(err);
-        process.exit(1);
+    catch (error) {
+        console.error("Ошибка чтения файла:", error);
     }
-};
-start();
-fastify.post('/api/v1/books', async (request, reply) => {
-    const { title, author } = request.body;
-    return {
-        message: 'Book created',
-        book: { title, author }
-    };
-});
+}
+getBookById(42);

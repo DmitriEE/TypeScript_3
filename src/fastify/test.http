@@ -1,0 +1,21 @@
+###POST   /api/v1/books
+##GET    /api/v1/books/:id
+##PUT    /api/v1/books/:id
+##DELETE /api/v1/books/:id
+##GET    /api/v1/books/:id/reviews
+##GET    /api/v1/books/:id/average-rating
+
+##Краткий список результатов
+##GET — Извлекает данные без побочных эффектов.
+##POST — Отправляет данные для создания нового ресурса.
+##PUT — Заменяет весь существующий ресурс.
+##PATCH — Применяет частичные изменения к ресурсу.
+##DELETE — Удаляет указанный ресурс.
+##HEAD — Идентичен GET, но возвращает только заголовки.
+
+
+
+
+
+##
+GET http://localhost:3000/api/v1/books/:id HTTP/1.1

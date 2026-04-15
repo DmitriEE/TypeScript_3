@@ -1,0 +1,47 @@
+[
+  {
+    "id": 164,
+    "firstName": "Monica",
+    "lastName": "Koch",
+    "birthYear": 1921,
+    "nationality": "Mexico",
+    "biography": "Demoror vehemens neque thema. Currus amplus atque sed baiulus attollo cetera triumphus adduco. Vomito demulceo advenio summisse arbor in.",
+    "createdAt": "2025-06-21T21:55:17.323Z"
+  },
+  {
+    "id": 875,
+    "firstName": "Marcos",
+    "lastName": "Leffler",
+    "birthYear": 1972,
+    "nationality": "Samoa",
+    "biography": "Suscipio sollers aspicio custodia corona depopulo demitto tollo. Bardus calamitas annus. Basium soluta aliqua cubo spectaculum atque supellex placeat cimentarius.",
+    "createdAt": "2026-02-23T08:54:47.234Z"
+  },
+  {
+    "id": 651,
+    "firstName": "Earl",
+    "lastName": "Legros",
+    "birthYear": 1987,
+    "nationality": "Papua New Guinea",
+    "biography": "Adipiscor calamitas eos arcus utroque. Attonbitus aut cupressus cruentus tum alius adsuesco auxilium. Universe crastinus et desino absque vilicus atque.",
+    "createdAt": "2025-04-21T19:04:44.054Z"
+  },
+  {
+    "id": 74,
+    "firstName": "Leigh",
+    "lastName": "Fritsch",
+    "birthYear": 1965,
+    "nationality": "Brunei Darussalam",
+    "biography": "Amoveo considero uberrime vinum volo tepesco tantum auxilium spargo. Quasi tondeo vicissitudo. Titulus torrens tripudio tricesimus textilis comptus.",
+    "createdAt": "2025-04-29T13:37:07.046Z"
+  },
+  {
+    "id": 430,
+    "firstName": "Deven",
+    "lastName": "Schmitt",
+    "birthYear": 1992,
+    "nationality": "Lebanon",
+    "biography": "Cerno aestus volaticus taceo patrocinor subnecto charisma esse capto. Vorago porro minima blanditiis. Illum umbra supellex et villa allatus crur vomito.",
+    "createdAt": "2026-01-28T19:36:51.100Z"
+  }
+]
