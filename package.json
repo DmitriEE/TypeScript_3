@@ -1,0 +1,36 @@
+{
+  "name": "typescript_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/fastify/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/fastify/server.js",
+    "dev": "nodemon ./dist/fastify/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriEE/TypeScript_3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriEE/TypeScript_3/issues"
+  },
+  "homepage": "https://github.com/DmitriEE/TypeScript_3#readme",
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "fastify": "^5.8.5",
+    "fastify-swagger": "^5.1.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}

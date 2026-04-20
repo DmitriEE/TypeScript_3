@@ -1,24 +1,41 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
+import Fastify from 'fastify';
+import { getBookById } from './exportFunctions.js';
+const server = Fastify({});
+const opts = {
+    schema: {
+        response: {
+            200: {
+                type: 'object',
+                properties: {
+                    pong: {
+                        type: 'string'
+                    }
+                }
+            }
+        }
+    }
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-const fastify_1 = __importDefault(require("fastify"));
-const fastify = (0, fastify_1.default)({
-    logger: true
+server.get('/ping', opts, async (request, reply) => {
+    return { pong: 'it worked!' };
 });
-fastify.get('/api/v1/books/:id', async (request, reply) => {
-    return { id: request.params };
+server.get('/api/v1/books/:id', async (request, reply) => {
+    const id = Number(request.params.id);
+    const result = await getBookById(id);
+    return { id: id, result: result };
 });
-/**
- * Run the server!
- */
+server.post('/api/v1/books', async (request, reply) => {
+    // Логика для создания новой книги
+    return { message: 'Книга создана' };
+});
 const start = async () => {
     try {
-        await fastify.listen({ port: 3000 });
+        await server.listen({ port: 3000 });
+        console.log(`Server running at http://localhost:3000/`);
+        const address = server.server.address();
+        const port = typeof address === 'string' ? address : address?.port;
     }
     catch (err) {
-        fastify.log.error(err);
+        server.log.error(err);
         process.exit(1);
     }
 };

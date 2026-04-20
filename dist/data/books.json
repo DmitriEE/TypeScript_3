@@ -48,22 +48,6 @@
     "updatedAt": "2025-04-07T18:24:11.696Z"
   },
   {
-    "id": 317,
-    "title": "Videlicet tamquam aequitas tam repellat synagoga nesciunt.",
-    "isbn": "2519112990088",
-    "publishedYear": 1994,
-    "pageCount": 842,
-    "language": "statua",
-    "description": "Tondeo adiuvo facilis adfectus curriculum capitulus caelestis quod. Decretum pauper alo theatrum. Desipio curis ventus.",
-    "authorId": 194,
-    "publisherId": 477,
-    "genres": [
-      "self-help"
-    ],
-    "createdAt": "2025-11-03T05:59:16.704Z",
-    "updatedAt": "2025-06-11T21:22:53.462Z"
-  },
-  {
     "id": 69,
     "title": "Umbra adfero vomer defero decor repudiandae quod cresco aduro.",
     "isbn": "3081724824382",
@@ -142,21 +126,5 @@
     ],
     "createdAt": "2025-11-15T11:16:43.973Z",
     "updatedAt": "2025-06-24T21:37:59.983Z"
-  },
-  {
-    "id": 317,
-    "title": "Subnecto cogo admitto dedecor voveo audio.",
-    "isbn": "7324154029657",
-    "publishedYear": 1965,
-    "pageCount": 811,
-    "language": "cauda",
-    "description": "Aro vesco vis arcesso derideo temeritas adamo eos utroque. Callide cubo occaecati bis sortitus sollers cupiditas tamisium. Stillicidium vilis demens sapiente.",
-    "authorId": 357,
-    "publisherId": 880,
-    "genres": [
-      "science fiction"
-    ],
-    "createdAt": "2025-07-09T20:00:18.066Z",
-    "updatedAt": "2025-09-14T09:04:13.442Z"
   }
 ]
