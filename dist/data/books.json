@@ -1,130 +1,18 @@
 [
   {
-    "id": 893,
-    "title": "Sequi confido veritas coruscus.",
-    "isbn": "7447131188813",
-    "publishedYear": 1972,
-    "pageCount": 976,
-    "language": "neque",
-    "description": "Tempora clamo quis. Usque tergo tutis utilis abeo thymum curvo thesis acies. Usus sustineo sortitus dapifer.",
-    "authorId": 148,
-    "publisherId": 309,
+    "id": 52,
+    "title": "Angustus cauda cibo sub candidus thermae currus ventosus cattus.",
+    "isbn": 971210672270,
+    "publishedYear": 1922,
+    "pageCount": 310,
+    "language": "natus",
+    "description": "Voluptates tumultus custodia absum cenaculum. Summisse terror verbera dapifer comprehendo nobis carpo viduo. Demoror consequatur asperiores conservo voluntarius deprimo utique sunt appositus spoliatio.",
+    "authorId": 689,
+    "publisherId": 224,
     "genres": [
       "fantasy"
     ],
-    "createdAt": "2025-06-30T14:15:14.182Z",
-    "updatedAt": "2025-07-22T10:12:22.181Z"
-  },
-  {
-    "id": 42,
-    "title": "Sono vilicus studio territo territo urbs defetiscor.",
-    "isbn": "8115963810390",
-    "publishedYear": 1951,
-    "pageCount": 244,
-    "language": "tum",
-    "description": "Dedecor conforto urbanus communis tempus venustas cursus. Adulescens acidus desolo curia caveo addo. Suadeo aequitas laboriosam abduco dolorem amplus vulariter vinum.",
-    "authorId": 509,
-    "publisherId": 273,
-    "genres": [
-      "non-fiction"
-    ],
-    "createdAt": "2026-03-16T05:06:31.744Z",
-    "updatedAt": "2025-06-09T21:23:16.513Z"
-  },
-  {
-    "id": 745,
-    "title": "Cultellus error spiculum copiose amplitudo damnatio illum hic.",
-    "isbn": "8190221889781",
-    "publishedYear": 1969,
-    "pageCount": 413,
-    "language": "bibo",
-    "description": "Umquam desolo derideo tamisium sono. Acquiro aut confido demum. Tutis corpus speculum stillicidium.",
-    "authorId": 292,
-    "publisherId": 760,
-    "genres": [
-      "horror"
-    ],
-    "createdAt": "2026-01-26T16:12:10.865Z",
-    "updatedAt": "2025-04-07T18:24:11.696Z"
-  },
-  {
-    "id": 69,
-    "title": "Umbra adfero vomer defero decor repudiandae quod cresco aduro.",
-    "isbn": "3081724824382",
-    "publishedYear": 2002,
-    "pageCount": 886,
-    "language": "vestrum",
-    "description": "Cito vallum doloremque mollitia cibus auctus. Despecto sollers cognatus tam accommodo cogo tabula vociferor theatrum fuga. Vesica approbo vorax dicta aurum ventito.",
-    "authorId": 63,
-    "publisherId": 27,
-    "genres": [
-      "science fiction"
-    ],
-    "createdAt": "2025-11-18T03:57:55.236Z",
-    "updatedAt": "2025-11-04T13:53:46.550Z"
-  },
-  {
-    "id": 316,
-    "title": "Inflammatio architecto ex audeo.",
-    "isbn": "8173663301530",
-    "publishedYear": 1943,
-    "pageCount": 169,
-    "language": "creber",
-    "description": "Nihil abduco tutamen crastinus cedo adulatio clarus solium ventito at. Aegrotatio conculco commodo sum volup deserunt. Antea beatus vestigium vereor thymbra.",
-    "authorId": 245,
-    "publisherId": 265,
-    "genres": [
-      "non-fiction"
-    ],
-    "createdAt": "2025-06-06T11:46:31.157Z",
-    "updatedAt": "2026-01-15T19:44:32.975Z"
-  },
-  {
-    "id": 717,
-    "title": "Taedium delectus cupio creptio.",
-    "isbn": "6940592647845",
-    "publishedYear": 2003,
-    "pageCount": 420,
-    "language": "agnitio",
-    "description": "Solio harum adulescens modi aptus crapula ars cicuta. Cohors decretum despecto ancilla deputo adflicto abutor. Animi voluptate denuo crepusculum adsum vergo stella.",
-    "authorId": 830,
-    "publisherId": 776,
-    "genres": [
-      "biography"
-    ],
-    "createdAt": "2026-03-29T08:59:03.084Z",
-    "updatedAt": "2026-02-12T05:49:35.507Z"
-  },
-  {
-    "id": 890,
-    "title": "Aeneus ventosus denique.",
-    "isbn": "5465405130842",
-    "publishedYear": 1963,
-    "pageCount": 958,
-    "language": "qui",
-    "description": "Cibo natus sto crastinus velum pectus animus corona absens alias. Comedo tabernus cur paens debeo. Creber a caveo certus.",
-    "authorId": 442,
-    "publisherId": 649,
-    "genres": [
-      "non-fiction"
-    ],
-    "createdAt": "2025-10-11T03:12:27.754Z",
-    "updatedAt": "2025-07-07T17:46:38.589Z"
-  },
-  {
-    "id": 120,
-    "title": "Utroque modi velut dedico clibanus xiphias decet deludo.",
-    "isbn": "2456764082023",
-    "publishedYear": 1945,
-    "pageCount": 223,
-    "language": "tabesco",
-    "description": "Curia videlicet vulgus carbo comitatus calcar vinculum coepi deputo. Utrimque perspiciatis amicitia supplanto cursim debilito articulus vaco aliqua. Libero iusto itaque supellex vitiosus coerceo.",
-    "authorId": 821,
-    "publisherId": 454,
-    "genres": [
-      "thriller"
-    ],
-    "createdAt": "2025-11-15T11:16:43.973Z",
-    "updatedAt": "2025-06-24T21:37:59.983Z"
+    "createdAt": "2026-02-24T11:10:09.140Z",
+    "updatedAt": "2025-05-11T02:07:20.422Z"
   }
 ]

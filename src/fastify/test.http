@@ -21,4 +21,21 @@
 ##GET http://localhost:3000/ping HTTP/1.1
 
 
-GET http://localhost:3000/api/v1/books/42 HTTP/1.1
+
+
+
+
+
+
+
+##POST   http://localhost:3000/api/v1/books WORKIN
+##GET    http://localhost:3000/api/v1/books WORKIN
+##GET    http://localhost:3000/api/v1/books/999 WORKIN
+##PUT    http://localhost:3000/api/v1/books/52 
+
+##DELETE http://localhost:3000/api/v1/books/52 WORKIN
+
+
+##POST   http://localhost:3000/api/v1/books/52/reviews WORKIN
+##GET    http://localhost:3000/api/v1/books/52/reviews
+##GET    http://localhost:3000/api/v1/books/52/average-rating

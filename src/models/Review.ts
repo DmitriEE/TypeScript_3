@@ -1,4 +1,4 @@
-export interface Rewiew {
+export interface Review {
     id: number
     bookId: number
     userName: string

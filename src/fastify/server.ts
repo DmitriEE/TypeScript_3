@@ -1,37 +1,68 @@
 import Fastify, { FastifyInstance, RouteShorthandOptions } from 'fastify'
 import { Server, IncomingMessage, ServerResponse } from 'http'
-import { getBookById } from './exportFunctions.js'
+import { generate_book, getBookById , genres , getAllBooks, delete_book , currentBookIds , generate_review, getReviewByBookId, getBookRating} from './exportFunctions.js'
 
 const server: FastifyInstance = Fastify({})
+const idList: number[] = currentBookIds();
 
-const opts: RouteShorthandOptions = {
-  schema: {
-    response: {
-      200: {
-        type: 'object',
-        properties: {
-          pong: {
-            type: 'string'
-          }
-        }
-      }
-    }
-  }
-}
 
-server.get('/ping', opts, async (request, reply) => {
-  return { pong: 'it worked!' }
-})
 server.get<{
   Params: { id: string }
-}>('/api/v1/books/:id', async (request, reply) => {
+}>('/api/v1/books/:id', async (request) => {
   const id = Number(request.params.id);
   const result = await getBookById(id);
   return { id: id, result: result };
 });
-server.post('/api/v1/books', async (request, reply) => {
-  // Логика для создания новой книги
+server.post('/api/v1/books', async () => {
+  const genre = genres;
+  generate_book(genre)
   return { message: 'Книга создана' };
+});
+
+server.get('/api/v1/books', async () => {
+  const result = getAllBooks();
+  return { Books: result };
+});
+server.put<{
+  Params: { id: string }
+}>('/api/v1/books/:id', async (request) => {
+  const id = Number(request.params.id);
+  const result = generate_book(genres, id);
+  return { result: result };
+});
+
+server.delete<{
+  Params: { id: string }
+}>('/api/v1/books/:id', async (request) => {
+  const id = Number(request.params.id);
+  const result = delete_book(id);
+  return { result: result };
+});
+
+
+server.post<{
+  Params: { bookId: string }
+}>('/api/v1/books/:bookId/reviews', async (request) => {
+  const id = Number(request.params.bookId);
+  const result = generate_review(idList, id);
+  return { result: result };
+});
+
+
+server.get<{
+  Params: { bookId: string }
+}>('/api/v1/books/:bookId/reviews', async (request) => {
+  const id = Number(request.params.bookId);
+  const result = await getReviewByBookId(id);
+  return { id: id, result: result };
+});
+
+server.get<{
+  Params: { id: string }
+}>('/api/v1/books/:id/average-rating', async (request) => {
+  const id = Number(request.params.id);
+  const result = await getBookRating(id);
+  return { id: id, result: result };
 });
 
 const start = async () => {
